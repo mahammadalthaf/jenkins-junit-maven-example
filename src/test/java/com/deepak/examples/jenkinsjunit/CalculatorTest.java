@@ -54,15 +54,15 @@ public class CalculatorTest {
 		calculator.divison(10, 0);
 	}
 
-	//@Ignore
+	
 	@Test
 	public void testEqual() {
-		boolean result = calculator.equalIntegers(20, 20);
+		boolean result = calculator.equalIntegers(20, 10);
 
 		assertTrue(result);
 	}
 
-	//@Ignore
+	@Ignore
 	@Test
 	public void testSubstraction() {
 		int result = 10 - 3;
